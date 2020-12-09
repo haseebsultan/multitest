@@ -1,5 +1,8 @@
 pipeline {
-    agent any        
+    agent{
+    node {
+label 'slave'
+    }   }   
    
     environment {
         CI = 'true'
