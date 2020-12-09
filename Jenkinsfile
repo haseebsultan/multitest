@@ -12,7 +12,7 @@ label 'linux'
     stages {
         stage('Build') {
             steps {
-                sh 'npm install'
+             //   sh 'npm install'
               //  emailext body: 'buil done', subject: 'testemail', to: 'nida.hayat@systemsltd.com'
                 emailext (
   subject: "Waiting for your Approval! Job: '${env.JOB_NAME} [${env.BUILD_NUMBER}]'",
