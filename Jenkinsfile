@@ -34,11 +34,11 @@ label 'linux'
 )
                  input message: 'Finished using the web site? (Click "Proceed" to continue)'
         }
-            }}
+            }
         
          stage('D development') {
              
-             setps{
+             steps{
              
              echo 'deploying'
              }
