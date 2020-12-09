@@ -20,6 +20,7 @@ label 'linux'
         stage('Test') {
             steps {
          //       sh './jenkins/scripts/test.sh'
+                echo 'test'
             }
         }
        
